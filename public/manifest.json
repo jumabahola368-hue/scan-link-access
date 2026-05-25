@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Jay's Chat",
+  "version": "1.0.0",
+  "description": "Real-time messaging with voice chat, voice calls, and video calls.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Jay's Chat",
+    "default_icon": "favicon.ico"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "audio",
+    "video"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
